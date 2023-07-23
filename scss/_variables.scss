@@ -24,7 +24,7 @@ $secondary: $gray-300;
 // $dark: $gray-900 !default;
 // scss-docs-end theme-color-variables
 
-$body-color: #0f1421;
+$body-color-primary: #0f1421;
 $body-color-secondary: #0c2238;
 
 // scss-docs-start navbar-dark-variables
@@ -40,7 +40,7 @@ $navbar-dark-active-color: $primary;
 // // scss-docs-end navbar-dark-variables
 
 // $body-color-dark: $body-color;
-$body-bg-dark: $body-color;
+$body-bg-dark: $body-color-primary;
 // $body-secondary-color-dark: rgba($body-color-dark, 0.75) !default;
 $body-secondary-bg-dark: $body-color-secondary;
 // $body-tertiary-color-dark: rgba($body-color-dark, 0.5) !default;
@@ -77,10 +77,39 @@ $font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
 // === / SHADOW ===
 
 // === CARD ===
+// scss-docs-start card-variables
+// $card-spacer-y: $spacer !default;
+// $card-spacer-x: $spacer !default;
+// $card-title-spacer-y: $spacer * 0.5 !default;
+// $card-title-color: null !default;
+// $card-subtitle-color: null !default;
+$card-border-width: 3px;
+$card-border-color: $body-color-secondary;
+// $card-border-radius: var(--#{$prefix}border-radius) !default;
+// $card-box-shadow: null !default;
+// $card-inner-border-radius: subtract(
+//   $card-border-radius,
+//   $card-border-width
+// ) !default;
+// $card-cap-padding-y: $card-spacer-y * 0.5 !default;
+// $card-cap-padding-x: $card-spacer-x !default;
+// $card-cap-bg: rgba(var(--#{$prefix}body-color-rgb), 0.03) !default;
+// $card-cap-color: null !default;
+// $card-height: null !default;
+$card-color: $secondary;
+$card-bg: $body-color-secondary;
+// $card-img-overlay-padding: $spacer !default;
+// $card-group-margin: $grid-gutter-width * 0.5 !default;
+// scss-docs-end card-variables
 // === / CARD ===
 
-// === TITLE ===
-// === / TITLE ===
+// === BADGE ===
+$badge-padding-y: 0.6em;
+$badge-padding-x: 0.8em;
+$badge-font-size: 0.9em;
+$badge-border-radius: 0 5px 5px 0;
+
+// === / BADGE ===
 
 // === TITLE ===
 // === / TITLE ===

@@ -31,12 +31,18 @@
 input {
   &:focus {
     box-shadow: none !important;
-    border: 1px solid $gray-700 !important;
+    border: 1px solid $gray-500 !important;
   }
 
   &:hover {
-    border: 1px solid $gray-700 !important;
+    border: 1px solid $gray-500 !important;
   }
+}
+
+h2 {
+  text-align: center;
+  font-weight: 700;
+  color: $primary;
 }
 // === / TITLE ===
 

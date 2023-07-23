@@ -43,7 +43,7 @@
 
   <body>
     <!-- NAVBAR -->
-    <header class="custom-navbar">
+    <header class="custom-navbar fixed-top">
       <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
         <div class="container gap-4">
           <a class="navbar-brand" href="./index.html">
@@ -80,7 +80,6 @@
                   <li>
                     <a class="dropdown-item" href="#">Popular</a>
                   </li>
-                  <li><a class="dropdown-item" href="#">Now Playing</a></li>
                   <li>
                     <a class="dropdown-item" href="#">Up Coming</a>
                   </li>
@@ -130,13 +129,311 @@
     </header>
     <!-- / NAVBAR -->
 
-    <!-- BANNER  -->
-    <section>
+    <!-- NOW PLAYING  -->
+    <section class="now-playing-movies pt-5 shadow-lg">
       <div class="container mb-5 pb-lg-4">
-        <div class="row"></div>
+        <div class="row py-5">
+          <h2 class="py-4">Now Playing</h2>
+
+          <div class="row sliders">
+            <div class="col-xl-3 col-lg-4">
+              <div class="card primary-card shadow-sm">
+                <div class="card-top">
+                  <a href="#">
+                    <img
+                      src="./assets//images/movie-thumnail.jpg"
+                      class="card-img-top"
+                      alt="title"
+                  /></a>
+
+                  <div class="badge-rating">
+                    <span class="badge text-bg-primary">8.3/10</span>
+                  </div>
+                </div>
+                <div class="card-body text-center">
+                  <h5 class="card-title">The Flash</h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4">
+              <div class="card primary-card shadow-sm">
+                <div class="card-top">
+                  <a href="#">
+                    <img
+                      src="./assets//images/movie-thumnail.jpg"
+                      class="card-img-top"
+                      alt="title"
+                  /></a>
+
+                  <div class="badge-rating">
+                    <span class="badge text-bg-primary">8.3/10</span>
+                  </div>
+                </div>
+                <div class="card-body text-center">
+                  <h5 class="card-title">The Flash</h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4">
+              <div class="card primary-card shadow-sm">
+                <div class="card-top">
+                  <a href="#">
+                    <img
+                      src="./assets//images/movie-thumnail.jpg"
+                      class="card-img-top"
+                      alt="title"
+                  /></a>
+
+                  <div class="badge-rating">
+                    <span class="badge text-bg-primary">8.3/10</span>
+                  </div>
+                </div>
+                <div class="card-body text-center">
+                  <h5 class="card-title">The Flash</h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4">
+              <div class="card primary-card shadow-sm">
+                <div class="card-top">
+                  <a href="#">
+                    <img
+                      src="./assets//images/movie-thumnail.jpg"
+                      class="card-img-top"
+                      alt="title"
+                  /></a>
+
+                  <div class="badge-rating">
+                    <span class="badge text-bg-primary">8.3/10</span>
+                  </div>
+                </div>
+                <div class="card-body text-center">
+                  <h5 class="card-title">The Flash</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
-    <!-- / BANNER  -->
+    <!-- / NOW PLAYING  -->
+
+    <!-- SERCH -->
+    <section>
+      <div class="container mb-5 pb-lg-4 pt-5">
+        <div class="row">
+          <div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2">
+            <form action="/index.html">
+              <div class="d-flex gap-5 mb-4">
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="movies"
+                    id="flexRadioDefault1"
+                  />
+                  <label class="form-check-label" for="movies"> Movies </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="tv"
+                    id="tv"
+                    checked
+                  />
+                  <label class="form-check-label" for="tv"> TV Shows </label>
+                </div>
+              </div>
+
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1"
+                  ><i class="icon-search"></i
+                ></span>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Username"
+                  aria-label="Username"
+                  aria-describedby="basic-addon1"
+                />
+                <button type="submit" class="btn btn-primary w-25">
+                  Search
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- / SERCH -->
+
+    <!-- POPULAR MOVIE -->
+    <section class="popular-movies">
+      <div class="container mb-5 pb-lg-5">
+        <div class="row">
+          <h2 class="mb-5">Popular Movie</h2>
+
+          <div class="row sliders">
+            <div class="col-xl-3 col-lg-4">
+              <div class="card primary-card shadow-sm">
+                <div class="card-top">
+                  <a href="#">
+                    <img
+                      src="./assets//images/movie-thumnail.jpg"
+                      class="card-img-top"
+                      alt="title"
+                  /></a>
+
+                  <div class="badge-rating">
+                    <span class="badge text-bg-primary">8.3/10</span>
+                  </div>
+                </div>
+                <div class="card-body text-center">
+                  <h5 class="card-title">The Flash</h5>
+                  <p class="card-title mb-0 fw-light">Release: 2023-06-06</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4">
+              <div class="card primary-card shadow-sm">
+                <div class="card-top">
+                  <a href="#">
+                    <img
+                      src="./assets//images/movie-thumnail.jpg"
+                      class="card-img-top"
+                      alt="title"
+                  /></a>
+
+                  <div class="badge-rating">
+                    <span class="badge text-bg-primary">8.3/10</span>
+                  </div>
+                </div>
+                <div class="card-body text-center">
+                  <h5 class="card-title">The Flash</h5>
+                  <p class="card-title mb-0 fw-light">Release: 2023-06-06</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4">
+              <div class="card primary-card shadow-sm">
+                <div class="card-top">
+                  <a href="#">
+                    <img
+                      src="./assets//images/movie-thumnail.jpg"
+                      class="card-img-top"
+                      alt="title"
+                  /></a>
+
+                  <div class="badge-rating">
+                    <span class="badge text-bg-primary">8.3/10</span>
+                  </div>
+                </div>
+                <div class="card-body text-center">
+                  <h5 class="card-title">The Flash</h5>
+                  <p class="card-title mb-0 fw-light">Release: 2023-06-06</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4">
+              <div class="card primary-card shadow-sm">
+                <div class="card-top">
+                  <a href="#">
+                    <img
+                      src="./assets//images/movie-thumnail.jpg"
+                      class="card-img-top"
+                      alt="title"
+                  /></a>
+
+                  <div class="badge-rating">
+                    <span class="badge text-bg-primary">8.3/10</span>
+                  </div>
+                </div>
+                <div class="card-body text-center">
+                  <h5 class="card-title">The Flash</h5>
+                  <p class="card-title mb-0 fw-light">Release: 2023-06-06</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- / POPULAR MOVIE -->
+
+    <!-- UP COMING MOVIE -->
+    <section class="up-comming-movies">
+      <div class="container mb-5 pb-lg-5">
+        <div class="row">
+          <h2 class="mb-5">UP COMING Coming</h2>
+
+          <div class="row sliders">
+            <div class="col-xl-3 col-lg-4">
+              <div class="card primary-card shadow-sm">
+                <div class="card-top">
+                  <a href="#">
+                    <img
+                      src="./assets//images/movie-thumnail.jpg"
+                      class="card-img-top"
+                      alt="title"
+                  /></a>
+
+                  <div class="badge-rating">
+                    <span class="badge text-bg-primary">Up Coming</span>
+                  </div>
+                </div>
+
+                <div class="card-body text-center">
+                  <h5 class="card-title">The Flash</h5>
+                  <p class="card-title mb-0 fw-light">Release: 2023-06-06</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- / UP COMING  MOVIE -->
+
+    <!-- TOP RATED -->
+    <section class="top-rated-movies">
+      <div class="container mb-5 pb-lg-5">
+        <div class="row">
+          <h2 class="mb-5">TOP RATED</h2>
+
+          <div class="row sliders">
+            <div class="col-xl-3 col-lg-4">
+              <div class="card primary-card shadow-sm">
+                <div class="card-top">
+                  <a href="#">
+                    <img
+                      src="./assets//images/movie-thumnail.jpg"
+                      class="card-img-top"
+                      alt="title"
+                  /></a>
+
+                  <div class="badge-rating">
+                    <span class="badge text-bg-primary">Top Rated</span>
+                  </div>
+                </div>
+
+                <div class="card-body text-center">
+                  <h5 class="card-title">The Flash</h5>
+                  <p class="card-title mb-0 fw-light">Release: 2023-06-06</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- / TOP RATED -->
 
     <!-- TITLE -->
     <section>

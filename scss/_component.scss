@@ -1,5 +1,23 @@
-// === TITLE ===
-// === / TITLE ===
+// === CARD ===
+.primary-card {
+  cursor: pointer;
+
+  .card-top {
+    position: relative;
+
+    .badge-rating {
+      position: absolute;
+      top: 15px;
+    }
+
+    // .badge-status {
+    //   position: absolute;
+    //   top: 15px;
+    //   right: 0px;
+    // }
+  }
+}
+// === / CARD ===
 
 // === TITLE ===
 // === / TITLE ===

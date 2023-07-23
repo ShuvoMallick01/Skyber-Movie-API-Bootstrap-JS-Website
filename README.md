@@ -1,6 +1,6 @@
-# SKYBER - title Template
+# SKYBER-Movie-API-Bootstrap-JS-Website
 
-Live Site: https://shuvomallick01.github.io/title/
+Live Site: https://shuvomallick01.github.io/Skyber-Movie-API-Bootstrap-JS-Website/
 
 ## Overview
 
