@@ -40,8 +40,45 @@ body {
 }
 // === / NOW PLAYING ===
 
-// === TITLE ===
-// === / TITLE ===
+// === FOOTER ===
+footer {
+  background-color: $body-color-secondary;
+
+  .social-media {
+    margin-top: 35px;
+
+    i {
+      background-color: $secondary;
+      padding: 8px;
+      border-radius: 25px;
+      color: $body-color-primary;
+
+      &:hover {
+        transform: scale(1);
+        color: $secondary;
+        background-color: $body-color-primary;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .category {
+    h4 {
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+
+    a {
+      text-decoration: none;
+      color: $gray-500;
+    }
+    li {
+      font-size: 15px;
+      padding-bottom: 5px;
+    }
+  }
+}
+// === / FOOTER ===
 
 // === TITLE ===
 // === / TITLE ===

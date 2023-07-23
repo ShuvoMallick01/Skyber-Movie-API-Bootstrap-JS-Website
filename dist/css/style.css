@@ -11972,6 +11972,37 @@ body {
   z-index: 2;
 }
 
+footer {
+  background-color: #0c2238;
+}
+footer .social-media {
+  margin-top: 35px;
+}
+footer .social-media i {
+  background-color: #dee2e6;
+  padding: 8px;
+  border-radius: 25px;
+  color: #0f1421;
+}
+footer .social-media i:hover {
+  transform: scale(1);
+  color: #dee2e6;
+  background-color: #0f1421;
+  cursor: pointer;
+}
+footer .category h4, footer .category .h4 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+footer .category a {
+  text-decoration: none;
+  color: #adb5bd;
+}
+footer .category li {
+  font-size: 15px;
+  padding-bottom: 5px;
+}
+
 /* === `xxl` applies to large devices (Desktop, less than 1200px) === */
 /* === `xl` applies to large devices (Desktop, less than 1200px) === */
 /* === 'lg' applies to medium devices (Tablets, less than 992px) === */
